@@ -6,11 +6,6 @@ export default function About() {
 
   const team = [
     {
-      name: "Sanjog Vishwkarma",
-      role: "Business Development Executive",
-      phone: "+91 9766443646",
-    },
-    {
       name: "Ashish Suryavanshi",
       role: "Business Development Executive",
       phone: "+91 9284738270",

@@ -60,7 +60,6 @@ export default function Contact() {
             <h3 style={{ color: "#0d3d56", marginBottom: "0.5rem" }}>
               📱 Phone
             </h3>
-            <p>+91 9766443646</p>
             <p>+91 9284738270</p>
           </div>
           <div
