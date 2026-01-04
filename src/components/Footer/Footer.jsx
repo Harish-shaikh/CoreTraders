@@ -30,7 +30,6 @@ export default function Footer() {
         <div className={styles.footerContact}>
           <h4>Contact</h4>
           <p>📧 sales@coretraders.in</p>
-          <p>📱 +91 9766443646</p>
           <p>📱 +91 9284738270</p>
           <p>
             📍 7511/3 Madhuri Gali, Azadnagar, Boisar (CT) 401506 Palghar,

@@ -1,5 +1,6 @@
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "../../assets/logo.svg"; // adjust path relative to your component
 import { GlobalContext } from "../../contexts/GlobalContext";
 import styles from "./header.module.css";
 
@@ -11,11 +12,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.container}>
         <Link to="/" className={styles.logo}>
-          <img
-            src="/src/assets/logo.svg"
-            alt="Core Traders"
-            className={styles.logoImg}
-          />
+          <img src={logo} alt="Core Traders" className={styles.logoImg} />
           <div className={styles.logoText}>
             <h1>CORE TRADERS</h1>
             <p>Engineering Excellence</p>
