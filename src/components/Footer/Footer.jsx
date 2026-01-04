@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
+import logo from "../../assets/logo.svg";
 import styles from "./footer.module.css";
-
 export default function Footer() {
   return (
     <footer className={styles.footer}>
@@ -8,11 +8,7 @@ export default function Footer() {
         {/* Footer content: logo on top */}
         <div className={styles.footerContent}>
           <Link to="/" className={styles.logo}>
-            <img
-              src="/src/assets/logo.svg"
-              alt="Core Traders"
-              className={styles.logoImg}
-            />
+            <img src={logo} alt="Core Traders" className={styles.logoImg} />
           </Link>
           <h3>Core Traders</h3>
           <p>Leading supplier of high-quality engineering consumables</p>
